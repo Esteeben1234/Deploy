@@ -49,6 +49,7 @@
     </style>
 </head>
 <body>
+<div class="container">
     <header>
         <h1>Bienvenido</h1>
     </header>
@@ -59,11 +60,11 @@
         ?>
     </section>
 
-
-    <div class="container">
         <h1><?php echo "Somos desarrollo de software DSW-23A"; ?></h1>
         <p>Creando soluciones innovadoras para tu negocio</p>
-    </div>
 
+    <footer>© <?php echo date ("Y"); ?> Desarrollado por Kenia Alemán. <br> Alejandra PLatero <br> Manuel López</footer>
+</div>
+    
 </body>
 </html>
